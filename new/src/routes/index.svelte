@@ -11,6 +11,7 @@
 </svelte:head>
 
 <section>
+	Hi
 	<!-- <h1>
 		<span class="welcome">
 			<picture>
@@ -29,4 +30,7 @@
 </section>
 
 <style lang="scss">
+	section {
+		
+	}
 </style>

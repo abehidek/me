@@ -3,15 +3,23 @@
 	import '../app.scss';
 </script>
 
-<Header />
+<div class="app">
+	<Header />
 
-<main>
-	<slot />
-</main>
+	<main class="container">
+		<slot />
+	</main>
+	
+	<footer>
+		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+	</footer>
+</div>
 
-<footer>
-	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
-</footer>
-
-<style>
+<style lang="scss">
+	.app {
+		background-color: purple;
+	}
+	main {
+		background: grey;
+	}
 </style>
